@@ -1,0 +1,91 @@
+.boxLeft {
+    float: left;
+    width: 400px;
+    height: 600px;
+    border-style: dashed;
+    border-color: #FDD204;
+  }
+  
+.boxRight {
+    float: right;
+    width: 250px;
+    height: 600px;
+}
+
+.boxRightTop {
+    margin-bottom: 50px;
+    width: 250px;
+    height: 300px;
+    color: #0279A2;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    border-bottom-color: blue;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+
+.boxRightBottom {
+    width: 250px;
+    height: 250px;
+    background-color: #93CA3C;
+    color: white;
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    
+}
+
+.boxRightBottom:hover {
+    opacity: 0.5;
+}
+
+.boxRightBottom a {
+    color: white;
+    text-decoration:none;
+}
+
+body {
+    width: 700px;
+    height: 600px;
+    margin: auto;
+}
+
+@font-face {
+    font-family: 'testFont';
+    src: url(font.ttf);
+  }
+
+.title {
+    font-family: testFont;
+    font-size: 20px;
+}
+
+.boxLeft a {
+    color: #A9A9A9;
+    text-decoration: none;
+    position: relative;
+    bottom: 35px;
+}
+.boxLeft a:hover {
+    text-decoration: underline;
+}
+
+#firstText {
+    margin: 10px;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+#secondText {
+    text-align: center;
+}
+th,td {
+    padding: 10px;
+    background-color: #F04F99;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    font-family: testFont;
+}
