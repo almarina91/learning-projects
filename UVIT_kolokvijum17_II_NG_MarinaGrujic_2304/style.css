@@ -1,0 +1,129 @@
+.mainBox {
+    width: 900px;
+    height: 900px;
+    margin: auto;
+    border-color:black;
+    border-width: 2px;
+    border-top-style:solid;
+    border-bottom-style: solid;
+    border-left-style: dashed;
+    border-right-style:dashed;
+    position: relative;
+}
+
+h1 {
+    width: 500px;
+    height: 150px;
+    margin: 20px 20px 0px 380px;
+    border-top: black 2px solid;
+    border-bottom: black 2px solid;
+    background-image: url(csharp.png);
+    background-size: 100px;
+    background-position: right;
+    background-repeat: repeat-x;
+}
+
+.centerBoxLeft {
+    float:left;
+    margin: 20px;
+    width: 250px;
+    height: 500px;
+    background-image: linear-gradient(to right, black, blue);
+    position: relative;
+}
+.centerBoxLeft:hover {
+    background-image: linear-gradient(to left, black, blue);
+}
+.centerBoxLeft a{
+    color: grey;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+    text-decoration: underline;
+}
+
+.centerBoxLeft a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.centerBoxLeft p {
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    color: white;
+}
+
+.centerBoxLeft ol {
+    color: white;
+    margin-left: 30px;
+    position: absolute;
+    top: 40px;
+}
+.centerBoxLeft figure {
+    position: absolute;
+    margin-top: 160px;
+    margin-left: 20px;
+}
+
+.centerBoxRight {
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    float: right;
+    width: 500px;
+    height: 500px;
+}
+
+.centerBoxRightTop {
+    padding-left: 10px;
+    padding-right: 10px;
+    border-left: 2px;
+    border-right: 2px;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-style: dashed;
+    border-color: black;
+}
+
+ table {
+     position: absolute;
+     margin-top: 30px;
+     border: 2px dashed black;
+     border-top: 0px;
+     border-bottom: 0px;
+     border-spacing: 5px;
+     padding: 5px;
+     width: 500px;
+     height:300px;
+     color:white;
+     empty-cells: hide;
+ }
+ td {
+     padding:15px;
+     background-color: purple;
+     width: 200px;
+ }
+ #emptyCell {
+     width:50px;
+ }
+
+ #programskiJezici {
+     background-color: white;
+     color: black;
+     text-align: center;
+     border: 2px solid black;
+     border-radius: 50px;
+     width: 350px;
+ }
+
+ h2 {
+     height: 150px;
+     width: 860px;
+     border: 2px solid black;
+     border-top-left-radius: 50px;
+     border-bottom-right-radius: 50px;
+     position: absolute;
+     bottom: 0px;
+     margin-left: 20px;
+ }
