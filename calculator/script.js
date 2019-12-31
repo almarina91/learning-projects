@@ -104,13 +104,12 @@ function onClickHandler(a)
 {
     if (addClicked || subtractClicked || divideClicked || multiplyClicked)
     {
-        
-        sum2 = sum2 + a;
+        sum2 = (sum2 == "0") ? a : sum2 + a;
         resultBox.innerHTML = sum2;
     }
     else
     {
-        sum1 = sum1 + a;
+        sum1 = (sum1 == "0") ? a : sum1 + a;
         resultBox.innerHTML = sum1;
     }
 }
