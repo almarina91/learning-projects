@@ -1,0 +1,9 @@
+
+
+input, select {
+    vertical-align: middle;
+    display: inline-block;
+    box-sizing: content-box;
+    -webkit-box-sizing: border-box;
+}
+
