@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Mocni kviz</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+    <body class="quizBody">
+        <div id="questions" class="container" align="center">
+            <h1>Health habits</h1>
+            <br>
+            <p>1. How often do you practice sport?</p>
+                <form id="form_1">
+                <div class="radio" id="1a">
+                    <label><input type="radio" name="optradio1" value="0">never</label>
+                </div>
+                <div class="radio" id="1b">
+                    <label><input type="radio" name="optradio1" value="1">once a month</label>
+                </div>
+                <div class="radio" id="1c">
+                    <label><input type="radio" name="optradio1" value="2">every week</label>
+                </div>
+                <div class="radio" id="1d">
+                    <label><input type="radio" name="optradio1" value="3">every day</label>
+                </div>
+                </form>
+            <p>2. Do you eat fresh fruit and vegetables every day?</p>
+                <form id="form_2">
+                <div class="radio" id="2a">
+                    <label><input type="radio" name="optradio2" value="0">yes</label>
+                </div>
+                <div class="radio" id="2b">
+                    <label><input type="radio" name="optradio2"value="2">no</label>
+                </div>
+                </form>
+            <p>3. How often do you smoke?</p>
+                <form id="form_3">
+                <div class="radio" id="3a">
+                    <label><input type="radio" name="optradio3" value="0">never</label>
+                </div>
+                <div class="radio" id="3b">
+                    <label><input type="radio" name="optradio3" value="1">less than one packet per month</label>
+                </div>
+                <div class="radio" id="3c">
+                    <label><input type="radio" name="optradio3" value="2">one packet per week</label>
+                </div>
+                <div class="radio" id="3d">
+                    <label><input type="radio" name="optradio3" value="3">one packet per day</label>
+                </div>
+                </form>
+            <p>4. How often do you drink alcohol?</p>
+                <form id="form_4">
+                <div class="radio" id="4a">
+                    <label><input type="radio" name="optradio4" value="0">never</label>
+                </div>
+                <div class="radio" id="4b">
+                    <label><input type="radio" name="optradio4" value="1">less than one glass per month</label>
+                </div>
+                <div class="radio" id="4c">
+                    <label><input type="radio" name="optradio4" value="2">one glass per week</label>
+                </div>
+                <div class="radio" id="4d">
+                    <label><input type="radio" name="optradio4" value="3">one glass per day</label>
+                </div>
+                </form>
+                <button id="submit" type="button" class="btn btn-warning" onclick="submit();">Submit!</button>
+                <div id="results">
+                    <span id='display'></span>
+                  </div>
+          </div>
+          <script src="script.js"></script>
+    </body>
+</html>
