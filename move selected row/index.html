@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Moving row</title>
+        <!-- bootstrap -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <table id="mainTable" class="table">
+            <tr >
+                <th>Name</th>
+                <th>Surname</th>
+                <th>Nationality</th>
+            </tr>
+            <tr id="nikola" onclick="onRowClick('nikola');">
+                <td>Nikola</td>
+                <td>Grujic</td>
+                <td>Dutch</td>
+            </tr>
+            <tr id="marina" onclick="onRowClick('marina');">
+                <td>Marina</td>
+                <td>Grujic</td>
+                <td>Dutch</td>
+            </tr>
+            <tr id="ljiljana" onclick="onRowClick('ljiljana');"> 
+                <td>Ljiljana</td>
+                <td>Aleksic</td>
+                <td>Serbian</td>
+            </tr>
+            <tr id="zoran" onclick="onRowClick('zoran');">
+                <td>Zoran</td>
+                <td>Aleksic</td>
+                <td>Serbian</td>
+            </tr>
+            <tr id="milica" onclick="onRowClick('milica');">
+                <td>Milica</td>
+                <td>Grujic</td>
+                <td>Serbian</td>
+            </tr>
+            <tr id="slavoljub" onclick="onRowClick('slavoljub');">
+                <td>Slavoljub</td>
+                <td>Grujic</td>
+                <td>Serbian</td>
+            </tr>
+            <tr id="katarina" onclick="onRowClick('katarina');">
+                <td>Katarina</td>
+                <td>Grujic</td>
+                <td>Serbian</td>
+            </tr>
+            <tr id="verica" onclick="onRowClick('verica');">
+                <td>Verica</td>
+                <td>Jovic</td>
+                <td>Serbian</td>
+            </tr>
+            <tr id="giulia" onclick="onRowClick('giulia');">
+                <td>Giulia</td>
+                <td>Spagnolo</td>
+                <td>Italian</td>
+            </tr>
+            <tr id="yana" onclick="onRowClick('yana');">
+                <td>Yana</td>
+                <td>Krumova</td>
+                <td>Bulgarian</td>
+            </tr>
+        </table>
+        <button onclick="upAndDown('up');">UP</button>
+        <button onclick="upAndDown('down');">DOWN</button>
+    </body>
+</html>
