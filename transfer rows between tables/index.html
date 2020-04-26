@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Transfer rows between tables</title>
+        <meta charset="UTF-8">
+        <script src="script.js"></script>
+        <link href="styles.css" type="text/css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div id="container">
+            <div id="left">
+                <table id="firstTable">
+                    <tr>
+                        <th>Name</th>
+                        <th>Last Name</th>
+                        <th>Age</th>
+                        <th>Select</th>
+                    </tr>
+                    <tr>
+                        <td>Nikola</td>
+                        <td>Grujic</td>
+                        <td>28</td>
+                        <td><input type="checkbox" name="name1"></td>
+                    </tr>
+                    <tr>
+                        <td>Marina</td>
+                        <td>Grujic</td>
+                        <td>29</td>
+                        <td><input type="checkbox" name="name2"></td>
+                    </tr>
+                    <tr>
+                        <td>Kristina</td>
+                        <td>Petkovic</td>
+                        <td>28</td>
+                        <td><input type="checkbox" name="name3"></td>
+                    </tr>
+                    <tr>
+                        <td>Jelena</td>
+                        <td>Peljevic</td>
+                        <td>28</td>
+                        <td><input type="checkbox" name="name4"></td>
+                    </tr>
+                    <tr>
+                        <td>Teodor</td>
+                        <td>Bankovic</td>
+                        <td>28</td>
+                        <td><input type="checkbox" name="name5"></td>
+                    </tr>
+                    <tr>
+                        <td>Darko</td>
+                        <td>Stosic</td>
+                        <td>28</td>
+                        <td><input type="checkbox" name="name6"></td>
+                    </tr>
+                    <tr>
+                        <td>Martina</td>
+                        <td>Nikic</td>
+                        <td>29</td>
+                        <td><input type="checkbox" name="name7"></td>
+                    </tr>
+                    <tr>
+                        <td>Sanja</td>
+                        <td>Milenic</td>
+                        <td>28</td>
+                        <td><input type="checkbox" name="name8"></td>
+                    </tr>
+                </table>
+            </div>
+            <div id="center">
+                <button onclick="moveRight();"><i class="fa fa-caret-right"></i></button>
+                <br>
+                <button onclick="moveLeft();"><i class="fa fa-caret-left"></i></button>
+            </div>
+            <div id="right">
+                <table id="secondTable">
+                    <tr>
+                        <th>Name</th>
+                        <th>Last Name</th>
+                        <th>Age</th>
+                        <th>Select</th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </body>
+    
+</html>
