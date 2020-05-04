@@ -1,0 +1,21 @@
+#content {
+    width: 800px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+#leftPart {
+    float: left;
+    width: 300px;
+    background-color: #b87a78;
+    color: #ecc2c2;
+    text-align: center;
+}
+
+#rightPart {
+    float: right;
+    width: 300px;
+    background-color: #cfd2c0;
+    color: #ab8e86;
+    text-align: center;
+}

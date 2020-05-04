@@ -21,3 +21,8 @@
     width: 300px;
     color: rgb(139, 139, 96);
 }
+
+td:hover {
+    background-color: grey;
+    cursor: pointer;
+}

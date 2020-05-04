@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Manipulating table rows</title>
+        <script src="script.js"></script>
+        <link href="styles.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="content">
+            <div id="leftPart">
+                <table id="theTable">
+                    <tr>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Age</th>
+                    </tr>
+                    <tr onclick= "rowToInput();">
+                        <td>Hrvoje</td>
+                        <td>Srbic</td>
+                        <td>12</td>
+                    </tr>
+                    <tr onclick= "rowToInput();">
+                        <td>Pera</td>
+                        <td>Peric</td>
+                        <td>12</td>
+                    </tr>
+                </table>
+            </div>
+            <div id="rightPart">
+                <form>
+                    <label for="firstName">First name:</label>
+                    <input type="text" id="firstName" name="firstName"><br><br>
+                    <label for="lastName">Last name:</label>
+                    <input type="text" id="lastName" name="lastName"><br><br>
+                    <label for="age">Age:</label>
+                    <input type="number" id="age" name="age"><br><br>
+                    <button type="button" onclick="add();">Add</button>
+                    <button type="button" onclick="edit();">Edit</button>
+                    <button type="button" onclick="remove();">Remove</button>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
